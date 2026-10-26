@@ -39,3 +39,18 @@ yarn-error.log*
 # typescript
 *.tsbuildinfo
 next-env.d.ts
+
+# Python backend
+__pycache__/
+*.py[cod]
+venv/
+.venv/
+env/
+
+# Local database
+backend/gapfinder.db
+
+# Secrets
+.env
+.env.*
+!.env.example
